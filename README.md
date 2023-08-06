@@ -3,7 +3,7 @@
 Mine your favorite crypto coin with one command line.
 
 ```
-docker run rafaelzimmermann/unmineable --coin=ETH --wallet=YOUR_WALLET_ADDRESS
+docker run cryptoandcoffee/unmineable --coin=ETH --wallet=YOUR_WALLET_ADDRESS
 ```
 
 Check your mining balance: https://unmineable.com/coins/CAKE/address/YOUR_WALLET_ADDRESS
@@ -31,7 +31,7 @@ https://docs.docker.com/get-docker/
 CPU crypto miner.
 
 Usage:
-docker run rafaelzimmermann/unmineable --coin=CAKE --wallet=YOUR_WALLET_ADDRESS
+docker run cryptoandcoffee/unmineable --coin=CAKE --wallet=YOUR_WALLET_ADDRESS
 options:
 -c/--coin            The coin to be mined.
                      Check available coins here: https://unmineable.com/coins
@@ -39,9 +39,5 @@ options:
 -n/--worker-name     Worker name.
 
 ```
-
-# Support
-
-<a href="https://www.buymeacoffee.com/r25b8yt77fh" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/default-orange.png" alt="Buy Me A Coffee" height="41" width="174"></a>
 
  
